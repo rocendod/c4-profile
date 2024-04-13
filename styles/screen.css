@@ -2,15 +2,15 @@ body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
     background: #2D3142;
-    padding: 0 40px;
     text-align: center;
+    margin: auto;
 }
 
 nav {
-    margin: 40px auto 0 auto;
+    margin: 20px;
     width: 250px;
     border-radius: 50px;
-    background: #212431;
+    background: #333;
 }
 
 nav ul {
@@ -33,18 +33,134 @@ nav ul li a {
     font-size: 1.2em;
 }
 
-h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
+.image {
+    background-color: aliceblue;
+    color: #333;
+    font-size: 1.2em;
+    width: auto;
+    height: 700px;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.nav-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-img.about {
-    opacity: 0.5;
+.profile-pic {
+    width: 200px; /* Adjust the width and height as needed */
+    height: 200px;
+    background-color: #ccc; /* Set the background color */
+    border-radius: 50%; /* Create a circular shape */
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+h2 {
+    margin: 0 20px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.name-tag{
+    display: flex;
+    align-items: center;    
+}
+
+.link-social {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.github, .linkedin {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px; /* Adjust spacing between buttons */
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .github {
+    background-color: #333;
+  }
+  
+  .linkedin {
+    background-color: #0077b5;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .stack {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-1{
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-2{
+    width: 600px;
+    margin-top: 100px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .intro{
+    background-color: #0077b5;
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 1.6em;
+  }
+
+  .image-card{
+    background-color: #0077b5;
+    font-size: 1.2em;
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+  }
+
+  .intro-text {
+    margin: 20px;
+
+  }
+
+  .c-profile {
+    width: 60px; /* Adjust the width and height as needed */
+    height: 60px;
+    background-color: #ccc; /* Set the background color */
+    border-radius: 50%; /* Create a circular shape */
+    margin-top: 10px;
+}
+
+.comment-sec {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.comment {
+    font-size: 1.5em;
 }
